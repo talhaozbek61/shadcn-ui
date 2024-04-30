@@ -5,8 +5,8 @@ export default function Home() {
     <main className="py-4">
       <h1 className="text-4xl font-semibold">Hello Shadcn UI</h1>
       <p className="text-sm lg:text-lg leading-8 py-4">
-        Hello visitors, I'm trying to learn shadcn/ui here. I hope i can do a
-        good job.
+        Hello visitors, I&apos;m trying to learn shadcn/ui here. I hope i can do
+        a good job.
       </p>
       <Products />
     </main>
