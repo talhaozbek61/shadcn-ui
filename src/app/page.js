@@ -1,16 +1,14 @@
-import ShadcnAlert from "@/components/Alert/ShadcnAlert";
+import Products from "@/components/products";
 
 export default function Home() {
   return (
-    <>
-      <ShadcnAlert />
+    <main className="py-4">
       <h1 className="text-4xl font-semibold">Hello Shadcn UI</h1>
-      <p className="text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illum
-        debitis ipsum, voluptate voluptatem reiciendis, quas rerum architecto
-        est neque non corporis ab aut incidunt! Illum id reiciendis error
-        inventore.
+      <p className="text-sm lg:text-lg leading-8 py-4">
+        Hello visitors, I'm trying to learn shadcn/ui here. I hope i can do a
+        good job.
       </p>
-    </>
+      <Products />
+    </main>
   );
 }
