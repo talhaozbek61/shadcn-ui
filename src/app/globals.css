@@ -71,6 +71,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground !max-w-7xl !mx-auto p-2 sm:px-8 md:px-16 space-y-3;
   }
 }

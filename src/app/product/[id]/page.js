@@ -2,10 +2,12 @@ import Comments from "@/components/comments";
 import { Button } from "@/components/ui/button";
 import products from "@/data/productsData";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 const getData = async (id) => {
   const product = products[id - 1];
-  return product;
+  if (product) return product;
+  else return notFound();
 };
 
 export default async function page({ params }) {
@@ -14,7 +16,7 @@ export default async function page({ params }) {
     <>
       <div className="grid lg:grid-cols-2 py-8 gap-4">
         <section className="space-y-5 my-auto max-lg:order-2">
-          <h1 className="text-2xl font-semibold">{product.name}</h1>
+          <h1 className="text-2xl font-semibold">{product?.name}</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
             similique ut, accusantium incidunt mollitia velit? Sint obcaecati
@@ -23,10 +25,10 @@ export default async function page({ params }) {
           </p>
 
           <div className="grid grid-cols-2 gap-3">
-            {product.info.map((i, iIdx) => (
+            {product?.info.map((i, iIdx) => (
               <span className="flex items-center gap-x-2 text-sm" key={iIdx}>
                 <i.icon className="w-6 h-6 text-indigo-600 flex-shrink-0" />
-                <span>{i.description}</span>
+                <span>{i?.description}</span>
               </span>
             ))}
           </div>
