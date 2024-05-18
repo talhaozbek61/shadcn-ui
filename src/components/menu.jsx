@@ -55,6 +55,11 @@ export default function Menu() {
           <MenubarTrigger className="cursor-pointer">Donation</MenubarTrigger>
         </Link>
       </MenubarMenu>
+      <MenubarMenu>
+        <Link href="/contact">
+          <MenubarTrigger className="cursor-pointer">Contact</MenubarTrigger>
+        </Link>
+      </MenubarMenu>
     </Menubar>
   );
 }
