@@ -1,6 +1,6 @@
 import { Clock, GraduationCap } from "lucide-react";
 
-const products = [
+const courses = [
   {
     id: 1,
     name: "Machine Learning",
@@ -11,9 +11,10 @@ const products = [
       },
       {
         icon: GraduationCap,
-        description: "Professional Certificate",
+        description: "Certificate",
       },
     ],
+    price: "Free",
   },
   {
     id: 2,
@@ -25,9 +26,10 @@ const products = [
       },
       {
         icon: GraduationCap,
-        description: "Professional Certificate",
+        description: "Certificate",
       },
     ],
+    price: "Free",
   },
   {
     id: 3,
@@ -39,10 +41,11 @@ const products = [
       },
       {
         icon: GraduationCap,
-        description: "Professional Certificate",
+        description: "Certificate",
       },
     ],
+    price: "Free",
   },
 ];
 
-export default products;
+export default courses;

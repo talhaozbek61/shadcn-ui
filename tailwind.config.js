@@ -18,6 +18,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        rick: "#256E93",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -73,5 +74,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/forms")],
 };

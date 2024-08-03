@@ -70,7 +70,11 @@
   * {
     @apply border-border;
   }
+  html,
   body {
-    @apply bg-background text-foreground !max-w-7xl !mx-auto p-2 sm:px-8 md:px-16 space-y-3;
+    @apply !scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground !max-w-7xl !mx-auto px-4 sm:px-6 lg:px-8;
   }
 }

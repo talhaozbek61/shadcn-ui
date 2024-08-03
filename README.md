@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Learn shadcn/ui with me v2
 
-## Getting Started
+This is the second version of my project using the Shadcn UI library. This version includes significant improvements and refinements.
 
-First, run the development server:
+## What's New in v2?
+
+### Improved Design
+
+- The overall design has been revamped for a more modern and aesthetic appearance.
+- Enhanced UI/UX elements to provide a better user experience.
+
+### Bug Fixes
+
+- Addressed and resolved numerous bugs from the previous version to ensure smoother performance and reliability.
+
+### Optimized File Structure
+
+- Reorganized the file structure for better readability and maintainability.
+- Grouped related files and components together for ease of access and management.
+
+### Code Cleanup
+
+- Removed unnecessary code to streamline the application and improve performance.
+- Refactored existing code to follow best practices and enhance code quality.
+
+### Framer Motion Animations
+
+- Added smooth animations using the Framer Motion library for a more dynamic user experience.
+
+### Demo
+
+Check out the [v2 Demo](https://learning-shadcn-ui.vercel.app/).
+
+## v1 Overview
+
+![v1 Overview](public/assets/v1-overview.gif)
+
+This was my first experience with the Shadcn UI library. I was experimenting and learning how to use it.
+
+### Design and Features
+
+- Basic design with core functionality.
+- Initial layout and components setup.
+
+## Installation
+
+To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/talhaozbek61/shadcn-ui.git
+cd shadcn-ui
+npm install
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
