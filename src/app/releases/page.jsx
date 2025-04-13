@@ -21,7 +21,7 @@ export default function Page() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const commentsVariants = {
+  const releasesVariants = {
     offscreen: { y: -100, opacity: 0 },
     onscreen: {
       y: isInView ? 0 : -100,
@@ -58,7 +58,7 @@ export default function Page() {
       initial="offscreen"
       animate="onscreen"
       exit="offscreen"
-      variants={commentsVariants}
+      variants={releasesVariants}
       ref={ref}
       className="px-6 py-24 sm:py-32 lg:px-8"
     >
@@ -111,7 +111,7 @@ export default function Page() {
               </p>
             </CardDescription>
             <hr />
-            <CardContent className="prose mt-4">
+            <CardContent className="prose mt-4 max-w-full">
               <ReactMarkdown>{release.body}</ReactMarkdown>
             </CardContent>
           </Card>

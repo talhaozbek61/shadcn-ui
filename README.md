@@ -27,6 +27,11 @@ This is the second version of my project using the Shadcn UI library. This versi
 
 - Added smooth animations using the Framer Motion library for a more dynamic user experience.
 
+### Release Page Integration
+
+- All versions published on GitHub are now fetched via the GitHub API and displayed on the Releases page of the site.
+- This allows users to easily view the details of both current and past versions directly from the website.
+
 ### Demo
 
 Check out the [v2 Demo](https://learning-shadcn-ui.vercel.app/).
