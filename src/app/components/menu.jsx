@@ -26,6 +26,10 @@ const menu = [
     path: "/#courses",
   },
   {
+    name: "Releases",
+    path: "/releases",
+  },
+  {
     name: "Contact",
     path: "/contact",
   },
