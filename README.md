@@ -54,5 +54,16 @@ To get started with this project, clone the repository and install the necessary
 ```bash
 git clone https://github.com/talhaozbek61/shadcn-ui.git
 cd shadcn-ui
+git checkout tags/v1.0
 npm install
+```
+
+> ⚠️ **Note:**  
+> The `tailwindcss-animate` package was used in `v1.0`, but it is **not required** to run the project.  
+> If you encounter any errors related to this plugin, simply remove the following line from `tailwind.config.js`:
+
+```bash
+plugins: [
+  require("tailwindcss-animate"), // ← remove this line
+]
 ```
